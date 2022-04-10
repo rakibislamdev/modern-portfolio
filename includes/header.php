@@ -97,10 +97,10 @@
                 <div class="col-lg-9 offset-lg-1 d-none d-lg-block text-right">
                     <div class="main-menu d-inline-block">
                         <ul>
-                            <li><a href="/index.php">Home</a></li>
+                            <li><a href="./index.php">Home</a></li>
                             <li><a href="#about">About</a></li>
-                            <li><a href="#services">Resume</a></li>
-                            <li><a href="#resume">Services</a></li>
+                            <li><a href="#resume">Resume</a></li>
+                            <li><a href="#services">Services</a></li>
                             <li><a href="#portfolio">Portfolio</a></li>
                             <li><a href="#blog">blog</a></li>
                             <li><a href="#contact">Contact</a></li>

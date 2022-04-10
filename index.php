@@ -21,12 +21,8 @@ require_once('includes/header.php');
                         projects and packages</p>
                     <a href="#" class="theme-btn wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="1.9s">+
                         Download CV</a>
-
-                    <div class="social-profile">
-                        <a href="https://www.facebook.com/rakibislm.dev" class="wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="2.2s"><i class="fal fa-plus"></i>facebook</a>
-                        <a href="https://twitter.com/rakibislamdev" class="wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="2.5s"><i class="fal fa-plus"></i>twitter</a>
-                        <a href="https://www.linkedin.com/in/rakibislamdev/" class="wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="2.7s"><i class="fal fa-plus"></i>linkedin</a>
-                    </div>
+                    <a href="#" class="theme-btn wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="1.9s">+
+                        Hire Me</a>
                 </div>
             </div>
             <div class="col-lg-6 offset-lg-1 col-sm-12 text-center overflow-hidden">
@@ -39,7 +35,7 @@ require_once('includes/header.php');
 </section>
 
 <!-- about-me section -->
-<section class="about-section section-padding about-2">
+<section class="about-section section-padding about-2" id="about">
     <div class="container">
         <div class="row">
             <div class="col-12 text-center col-lg-10 offset-lg-1">
@@ -80,63 +76,19 @@ require_once('includes/header.php');
                             </div>
                         </div>
                     </div>
-
+                    <div class="social-profile">
+                        <a href="https://www.facebook.com/rakibislm.dev" class="wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="2.2s"><i class="fal fa-plus"></i>facebook</a>
+                        <a href="https://twitter.com/rakibislamdev" class="wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="2.5s"><i class="fal fa-plus"></i>twitter</a>
+                        <a href="https://www.linkedin.com/in/rakibislamdev/" class="wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="2.7s"><i class="fal fa-plus"></i>linkedin</a>
+                    </div>
+                    <a href="#" class="theme-btn">+ Download CV</a>
                     <a href="#" class="theme-btn">+ Hire Me</a>
                 </div>
             </div>
         </div>
     </div>
 </section>
-
-<!-- service section -->
-<section class="services-section section-padding" id="services">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 text-center col-lg-10 offset-lg-1">
-                <div class="section-title-one wow fadeInDown" data-wow-duration="1.2s">
-                    <span>my services</span>
-                    <h2>I’m Graphic & Web Design , Developer and Check What’s Services I’ll Provide my Clients.</h2>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-12">
-                <div class="single-service service-1 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
-                    <div class="icon">
-                        <img src="assets/img/icons/creativity.png" alt="">
-                    </div>
-                    <h3>Creative Design</h3>
-                    <p>We provide various school management software. We provide user friendly software with user
-                        and client in mind.</p>
-                </div>
-            </div> <!-- /.single-service -->
-            <div class="col-lg-4 col-md-6 col-sm-12">
-                <div class="single-service service-1 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
-                    <div class="icon">
-                        <img src="assets/img/icons/seo.png" alt="">
-                    </div>
-                    <h3>Digital Marketing</h3>
-                    <p>Maborisum ipsum dosea ilelite consec Maborisum iesumdolor anim id est laborum</p>
-                </div>
-            </div> <!-- /.single-service -->
-            <div class="col-lg-4 col-md-6 col-sm-12">
-                <div class="single-service service-1 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">
-                    <div class="icon">
-                        <img src="assets/img/icons/code.png" alt="">
-                    </div>
-                    <h3>Web Coding</h3>
-                    <p>Maborisum ipsum dosea ilelite consec Maborisum iesumdolor anim id est laborum</p>
-                </div>
-            </div> <!-- /.single-service -->
-        </div>
-        <div class="contact-promo text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".9s">
-            Have any Work? Fell Free to - <a href="#contact">Contact Me</a>
-        </div>
-    </div>
-</section>
-
-<!-- about-me section -->
-
+<!-- my resume section -->
 <section class="skills-experiance-resume section-padding" id="resume">
     <div class="container">
         <div class="row">
@@ -332,6 +284,55 @@ require_once('includes/header.php');
         </div>
     </div>
 </section>
+
+<!-- service section -->
+<section class="services-section section-padding" id="services">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center col-lg-10 offset-lg-1">
+                <div class="section-title-one wow fadeInDown" data-wow-duration="1.2s">
+                    <span>my services</span>
+                    <h2>I’m Graphic & Web Design , Developer and Check What’s Services I’ll Provide my Clients.</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="single-service service-1 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+                    <div class="icon">
+                        <img src="assets/img/icons/creativity.png" alt="">
+                    </div>
+                    <h3>Creative Design</h3>
+                    <p>We provide various school management software. We provide user friendly software with user
+                        and client in mind.</p>
+                </div>
+            </div> <!-- /.single-service -->
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="single-service service-1 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                    <div class="icon">
+                        <img src="assets/img/icons/seo.png" alt="">
+                    </div>
+                    <h3>Digital Marketing</h3>
+                    <p>Maborisum ipsum dosea ilelite consec Maborisum iesumdolor anim id est laborum</p>
+                </div>
+            </div> <!-- /.single-service -->
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="single-service service-1 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">
+                    <div class="icon">
+                        <img src="assets/img/icons/code.png" alt="">
+                    </div>
+                    <h3>Web Coding</h3>
+                    <p>Maborisum ipsum dosea ilelite consec Maborisum iesumdolor anim id est laborum</p>
+                </div>
+            </div> <!-- /.single-service -->
+        </div>
+        <div class="contact-promo text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".9s">
+            Have any Work? Fell Free to - <a href="#contact">Contact Me</a>
+        </div>
+    </div>
+</section>
+
+<!-- about-me section -->
 
 <section class="portfolio-showcase section-padding pt-0" id="portfolio">
     <div class="container">
